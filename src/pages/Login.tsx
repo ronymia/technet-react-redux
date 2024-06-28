@@ -26,10 +26,14 @@ export default function Login() {
             }}
           />
           <div className="relative z-20 flex items-center text-lg font-medium">
-            <img className="h-8" src={logo} alt="" />
+            <Link to={'/'}>
+             <img className="h-8" src={logo} alt="" />
+            </Link>
           </div>
           <div className="relative z-20 mt-auto">
-            <blockquote className="space-y-2"></blockquote>
+            <blockquote className="space-y-2">
+
+            </blockquote>
           </div>
         </div>
         <div className="lg:p-8">
